@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zeeshan Restaurant Srikakulam | Apna Hyderabadi Food</title>
+    <meta
+      name="description"
+      content="Zeeshan Restaurant Srikakulam - Apna Hyderabadi Food. Premium Hyderabadi biryani, mandi, kebabs, curries, family dining, private dining room and WhatsApp ordering."
+    />
+    <meta name="theme-color" content="#090604" />
+    <meta property="og:title" content="Zeeshan Restaurant Srikakulam - Apna Hyderabadi Food" />
+    <meta
+      property="og:description"
+      content="Luxury Hyderabadi restaurant website with menu search, WhatsApp ordering, gallery, reviews and directions."
+    />
+    <meta property="og:image" content="/public/images/zeeshan-food-biryani.jpg.jpeg" />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="/public/images/zeeshan-interior-1.jpg.jpeg" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <script>
+      tailwind = {
+        config: {
+          theme: {
+            extend: {
+              fontFamily: {
+                display: ["Cinzel", "Playfair Display", "serif"],
+                serif: ["Playfair Display", "serif"],
+                body: ["Poppins", "sans-serif"]
+              },
+              colors: {
+                ink: "#090604",
+                night: "#130c08",
+                roast: "#2a160c",
+                brass: "#d4af37",
+                gold: "#f4d47c",
+                cream: "#fff2d8",
+                sage: "#9caf88"
+              },
+              boxShadow: {
+                gold: "0 24px 80px rgba(212, 175, 55, 0.18)",
+                ember: "0 20px 70px rgba(94, 43, 12, 0.36)"
+              }
+            }
+          }
+        }
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <noscript>This restaurant website requires JavaScript for the searchable menu and WhatsApp ordering.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
